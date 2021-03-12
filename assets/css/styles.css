@@ -1,0 +1,124 @@
+@keyframes palette {
+  0% {background-color: #fd4343;}
+  5% {background-color: #fc7b44;}
+  10% {background-color: #fcb344;}
+  15% {background-color: #fcea44;}
+  20% {background-color: #d8fc44;}
+  25% {background-color: #a0fc44;}
+  30% {background-color: #69fc44;}
+  35% {background-color: #44fc57;}
+  40% {background-color: #44fc8e;}
+  45% {background-color: #44fcc5;}
+  50% {background-color: #44fcfc;}
+  55% {background-color: #44c5fc;}
+  60% {background-color: #448efc;}
+  65% {background-color: #4457fc;}
+  70% {background-color: #6944fc;}
+  75% {background-color: #a044fc;}
+  80% {background-color: #d844fc;}
+  85% {background-color: #fc44ea;}
+  90% {background-color: #fc44b3;}
+  95% {background-color: #fc447b;}
+  100% {background-color: #fd4343;}
+}
+
+@keyframes colour {
+  0% {color: #fd4343;}
+  5% {color: #fc7b44;}
+  10% {color: #fcb344;}
+  15% {color: #fcea44;}
+  20% {color: #d8fc44;}
+  25% {color: #a0fc44;}
+  30% {color: #69fc44;}
+  35% {color: #44fc57;}
+  40% {color: #44fc8e;}
+  45% {color: #44fcc5;}
+  50% {color: #44fcfc;}
+  55% {color: #44c5fc;}
+  60% {color: #448efc;}
+  65% {color: #4457fc;}
+  70% {color: #6944fc;}
+  75% {color: #a044fc;}
+  80% {color: #d844fc;}
+  85% {color: #fc44ea;}
+  90% {color: #fc44b3;}
+  95% {color: #fc447b;}
+  100% {color: #fd4343;}
+}
+
+:root {
+  --eigengrau: #16161d;
+  --paper: rgb(252, 249, 249);
+  --sans: 'Open Sans Condensed', sans-serif;
+  --serif: 'Merriweather', Georgia, Times, Times New Roman, serif;
+  --edge: 2rem;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--eigengrau);
+  font-family: var(--serif);
+  line-height: 1.625;
+  background: var(--paper);
+  position: relative;
+  height: 100vh;
+}
+
+canvas,
+main {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+  font-family: var(--sans);
+  font-weight: 700;
+}
+
+section {
+  margin: 3rem auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  opacity: 1;
+  transition: opacity 0.3s, drop-shadow 0.3s;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: #A7C750;
+  color: #fff;
+}
